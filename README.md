@@ -26,3 +26,5 @@ py gui.py
 - After the window "Sudoku Solver" appears press the space key.
 
 [Screenshot-288](https://ibb.co/zF9cDRH)
+
+To change the sudoku board change the board matrix in [solver.py](http://solver.py) and grid matrix in gui.py
