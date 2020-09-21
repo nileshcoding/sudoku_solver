@@ -25,4 +25,4 @@ py gui.py
 
 - After the window "Sudoku Solver" appears press the space key.
 
-![Sudoku%20Solver%20&%20Visualiser%209cb5742801f547eb9647f679d952e695/Screenshot_(288).png](Sudoku%20Solver%20&%20Visualiser%209cb5742801f547eb9647f679d952e695/Screenshot_(288).png)
+[Screenshot-288](https://ibb.co/zF9cDRH)
