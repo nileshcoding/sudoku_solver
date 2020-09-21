@@ -1,6 +1,6 @@
 import pygame
 pygame.font.init()
-screen = pygame.display.set_mode((500,600))
+screen = pygame.display.set_mode((500,500))
 pygame.display.set_caption("Sudoku Solver")
 def draw_grid(grid,screen):
     dif = 500/9
@@ -14,7 +14,7 @@ def draw_grid(grid,screen):
                 text1 = font1.render(str(grid[i][j]), 1, (0, 0, 0)) 
                 screen.blit(text1, (i * dif + 15, j * dif + 15))
             else:
-                pygame.draw.rect(screen,(0,255,0),(i * dif, j * dif, dif + 1, dif + 1))
+                pygame.draw.rect(screen,(255,0,0),(i * dif, j * dif, dif + 1, dif + 1))
 
     for i in range(10): 
         if i % 3 == 0 : 
