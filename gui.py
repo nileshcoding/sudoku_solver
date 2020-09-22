@@ -19,10 +19,10 @@ grid = [
 
 run = True
 while run:
-    draw_grid(grid,screen)
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            run =  False
-        keys = pygame.key.get_pressed()
-        if keys[pygame.K_SPACE]:
-            solve(grid)
+	draw_grid(grid,screen)
+	for event in pygame.event.get():
+		if event.type == pygame.QUIT:
+			run =  False
+		keys = pygame.key.get_pressed()
+		if keys[pygame.K_SPACE]:
+			solve(grid)
