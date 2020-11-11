@@ -3,6 +3,7 @@
     function empty_position takes the board(sudoku matrix) as empty and returns the first empty position.
     when there is no empty position, it returns None.
 '''
+#trying pull request
 from functions import *
 def empty_position(board):
     for i in  range(len(board)):
