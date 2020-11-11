@@ -2,7 +2,7 @@ import pygame
 pygame.font.init()
 screen = pygame.display.set_mode((500,500))
 pygame.display.set_caption("Sudoku Solver")
-
+import json
 def draw_grid(grid,screen):
     dif = 500/9
     font1 = pygame.font.SysFont("comicsans", 40) 
